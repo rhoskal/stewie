@@ -1,0 +1,14 @@
+# dependencies
+elm-stuff
+node_modules
+
+# generated fiels
+src/GitHub
+public/app.js
+
+# misc
+.idea
+.DS_Store
+.env*
+yarn-debug.log*
+yarn-error.log*
