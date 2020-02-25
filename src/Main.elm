@@ -126,4 +126,4 @@ viewUser model =
             el [] (text "Failed!")
 
         Success user ->
-            el [] (text user.login)
+            el [] (text ("Welcome " ++ user.login))
