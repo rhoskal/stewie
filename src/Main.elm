@@ -87,7 +87,7 @@ update msg _ =
 
 
 type alias Flags =
-   String
+    String
 
 
 init : Flags -> ( Model, Cmd Msg )

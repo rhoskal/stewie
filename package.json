@@ -1,15 +1,8 @@
 {
   "name": "stewie",
   "version": "0.1.0",
-  "main": "index.js",
   "author": "@hansjhoffman",
   "license": "MIT",
-  "scripts": {
-    "build": "elm make src/Main.elm --output=public/app.js",
-    "format": "elm-format src/Main.elm --yes",
-    "run": "elm-live src/Main.elm --open --dir=public -- --debug --output=public/app.js",
-    "schema": "elm-graphql https://api.github.com/graphql --base GitHub --header 'authorization: Bearer <AUTH_TOKEN>'"
-  },
   "devDependencies": {
     "@dillonkearns/elm-graphql": "^4.0.1"
   }
